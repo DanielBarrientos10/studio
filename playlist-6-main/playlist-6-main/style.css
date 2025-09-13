@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2? family= Wix+Madefor+Display & display=swap');
+
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Wix Madefor Display', sans-serif;
+    color: #fff9f9;
+    background-color: (#10374c);
+}
+body{
+    background: linear-gradient(#10374c,#0e0b0bce);
+    background-color: #10374c;
+}
+/* background: linear-gradient(#10374c);*/
+.div-father-body{
+}
+.header{
+    padding: 60px;
+    display: flex;
+    justify-content: flex-start;
+
+}
+.imgpop{
+    width: 250px;
+}
+.head-description{
+    padding: 10px;
+    font-size: 20px;
+}
+.titulo-h1{
+    font-size: 100px;
+}
+.description1{
+    font-size: 15px;
+    padding: 10px;
+    color: #ffffffa8;
+}
+.description2{
+    font-size: 15px;
+    display: flex;
+}
+.p322{
+    align-items: center;
+    display: flex;
+}
+.p321{
+    align-items: center;
+    display: flex;
+    color: #ffffffa8;
+
+}
+.img01{
+    width: 30px;
+}
+a{
+    text-decoration: none;
+}
+.abajo{
+    background: linear-gradient(#0d2331,#020202);
+    background-color: #0e2e3f;
+    height: 600px;
+    width: 100%;
+    padding: 20px;
+}
+.barra{
+    display: flex;
+}
+.barra-1{
+    padding: 4px;
+    justify-content: center;
+    display: flex;
+    width: 60px;
+}
+.barra-2{
+    width: 400px;
+}
+.barra-3{
+    width: 250px;
+}
+.barra-4{
+    width: 400px;
+    justify-content: center;
+    display: flex;
+}
+.barra-5{
+    width: 325px;
+    justify-content: center;
+    display: flex;
+}
+
+.barra2{
+    display: flex;
+
+}
+.barra2-1{
+    width: 60px;
+    height: 50px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.flowers{
+    width: 50px;
+    height: 45px;
+}
+.div-1{
+    height: auto;
+    width: auto;
+    padding: 5px;
+    flex-direction: column;
+}
+.barra2-p{
+    height: auto;
+    width: auto;
+    list-style-type: none;
+    padding: 3px;
+}
+.barra2-pm{
+    height: auto;
+    width: auto;
+    list-style-type: none;
+    color: #ffffff8d;
+}
+.barra2-2{
+    width: 400px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+.barra2-3{
+    width: 250px;
+    height: 40px;
+}
+.barra2-4{
+    width: 400px;
+    height: 40px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.barra2-5{
+    width: 325px;
+    height: 40px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}

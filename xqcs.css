@@ -1,0 +1,29 @@
+.mov{
+    width: 300px;
+    height: 200px;
+    background-color: #8a2be2;
+    text-align: center;
+    line-height: 200px;
+    animation-name: movimiento;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    margin-bottom: 150px;
+}
+
+@keyframes movimiento {
+    0% {
+        transform: translateX(200px);
+        background-color: #7fffd4;
+    }
+    50% {
+        transform: scale(1.5);
+        background-color: #2c288d;
+    }
+    70%{
+        transform: translateY(300px);
+    }
+    100% {
+        transform: scale(1);
+        background-color: #c09235;
+    }
+}

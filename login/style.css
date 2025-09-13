@@ -1,0 +1,115 @@
+body{
+    margin: 0;
+    background-color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #ffffff;
+}
+   
+.login{
+    background: linear-gradient(#8696FE, #C4B0FF);
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    flex-direction: column;
+    padding: 0px 30px; /*Arriba y abajo*/
+    min-height: calc(100vh -200px);
+}
+
+.login_container{
+    background-color: rgba(255,255,255,0.2);
+    border: 2px solid white;
+    border-radius: 40px;
+    color: white;
+    padding: 60px 68px 40px;
+    min-height: 650px;
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.login_container_form{
+    display: flex;
+    flex-direction: column;
+}
+
+
+/*.login-container-remember{
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}*/
+.login_container_social>div>a{
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+}
+.login_container_social>div>a>img{
+    height: 28px;
+    margin: 4px 4px;
+    padding-right: 5px;
+}
+.div_recuerdame{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    font-size: 14px;
+}
+/*a:hover{
+    text-decoration: underline;
+}*/
+.recuerdame:hover{
+    text-decoration: underline;
+}
+.recuerdame{
+    margin-top: 3px;
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.input{
+    background-color: transparent;
+    border-left: 0px;
+    border-top: 0px;
+    border-right: 0px;
+    border-bottom: 2px solid white;
+    font-size: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 20px;
+    padding: 0px 20px;
+    height: 50px;
+}
+/*el input::placeholder es para modificar el texto de placeholder*/
+.input::placeholder { 
+    color: rgb(255, 255, 255);
+    font-weight: bold; 
+}
+.input_iniciasesion{
+    background-color: rgb(240, 255, 255, 0.2);
+    border-radius: 50px;
+    height: 50px;
+    margin-bottom: 15px;
+    border: 0px;
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+    font-size: 16px;
+    align-items: center;
+    font-weight: bold;
+    font-size: 17px;
+}
+.login_container_register:hover{
+    text-decoration: underline;
+}
+.footer{
+    padding: 40px;
+    background-color:  #C4B0FF;
+}
+.a_footer{
+    padding: 0px 0px 20px 20px;
+}
+.a_footer:hover{
+    text-decoration: underline; 
+}

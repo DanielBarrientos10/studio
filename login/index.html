@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Login</title>
+</head>
+<body>
+    <section class="login">
+        <section class="login_container">
+            <h2>Inicia sesion</h2>
+            <form class="login_container_form" id="login">
+                <input class="input" id="correo" type="email" name="Email" placeholder="Correo">
+                <input class="input" id="contraseña" type="password" name="password" placeholder="Contraseña">
+                <button class="input_iniciasesion" id="boton">Iniciar sesion</button>
+                <div class="div_recuerdame">
+                    <label>
+                        <input type="checkbox" name="Recuerdame" id="">Recuerdame 
+                    </label>
+                    <div class="recuerdame">
+                        <a href="">Olvide mi contraseña</a>
+                    </div>
+                </div>
+            </form>    
+            <section class="login_container_social">
+                <div>
+                    <a href="http://github.com/login" target="_blank"><img src="img/github.png" alt="">
+                        Inicia sesion con github
+                    </a>
+                    
+                </div>
+                <div>
+                    <a href="https://accounts.google.com/login" target="_blank"><img src="img/google.png" alt="">
+                        Inicia sesion con google
+                    </a>
+                    
+                </div>
+                <div>
+                    <a href="https://twitter.com/login" target="_blank">
+                        <img src="img/twitter.png" alt="">
+                        Inicia sesion con twitter
+                    </a>
+                    
+                </div>
+            </section>
+            <p class="">No tienes ninguna cuenta 
+                <a class="login_container_register" href="">Registrate</a>
+            </p>
+        </section>
+    </section>
+    <footer class="footer">
+        <a class="a_footer" href="">Terminos de uso</a>
+        <a class="a_footer" href="">Declaraciones de privacidad</a>
+        <a class="a_footer" href="">Centro de ayuda</a>
+    </footer>
+    <script src="login.js"></script>
+</body>
+</html>

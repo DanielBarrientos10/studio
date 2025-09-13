@@ -1,0 +1,111 @@
+ @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+/*font-family: 'Quicksand', sans-serif;*/
+*{
+    font-family: 'Quicksand', sans-serif;
+    margin: 0%;
+    padding: 0%;
+}
+/*
+    background: rgba(143, 123, 11, 0.453);
+    background: linear-gradient(0deg, rgb(159, 143, 55) 0%, rgba(205,208,107,1) 100%);
+*/
+.principal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.puntaje{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    width: 1300px;
+    height: 60px;
+    font-size: 20px;
+}
+.puntaje-user{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.puntaje-computador{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.manos{
+    display: flex;
+    justify-content: center;
+}
+.manos img{
+    animation: movimiento 2s ease;
+}
+@keyframes movimiento {
+    0% {
+        transform: translateY(0px);
+      }
+    15%{
+        transform: translateY(-25px);
+    }
+    25%{
+        transform: translateY(0px);
+    }
+    35%{
+        transform: translateY(-25px);
+    }
+    50%{
+        transform: translateY(0px);
+    }
+    65%{
+        transform: translateY(-25px);
+    }
+    75%{
+        transform: translateY(0px);
+    }
+
+    }
+.h2-solo{
+    font-size: 45px;
+    display: flex;
+    justify-content: center;
+}
+.tijera:hover{
+    background-color: #fc4300;
+}
+.papel:hover{
+    background-color: #fc4300;
+}
+.piedra:hover{
+    background-color: #fc4300;
+}
+.opciones>button>img{
+    width: 50px;
+}
+.opciones>button{
+    width: 100px;
+    height: 100px;
+    border: 3px solid #fc4300;
+    cursor: pointer;
+    border-radius: 100px;
+    margin: 17px 50px 0px 50px;
+}
+.opciones{
+    width: 700px;
+    display: flex;
+    justify-content: center;
+}
+.tablero{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.foooter_e{
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+    margin: auto;
+    text-align: center;
+    padding: 20px 0px;
+
+}

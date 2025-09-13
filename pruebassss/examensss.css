@@ -1,0 +1,116 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+.zas1{
+    display: flex;
+    flex-direction: column;
+}
+.title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.h2ini{
+    font-size: 25px;
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+.divthree{
+    display: flex;
+    justify-content: center;
+}
+.one_face{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 330px;
+    height: 150px;
+    text-align: center;
+    margin: 0px 9px 100px 9px;
+}
+h5{
+    font-size: 18px;
+    padding-bottom: 12px;
+}
+.circu{
+    border: 1px solid #000000;
+    border-radius: 50px;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    margin-bottom: 13px;
+}
+a{
+    color: #000000;
+}
+
+
+
+.p1{
+    background-color: #C4D7B2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h3{
+    margin: 30px;
+    font-size: 30px;
+}
+.pnumbers{
+    display: flex;
+}
+li{
+    font-size: 25px;
+    list-style: none;
+    padding-bottom: 10px;
+    margin: 10px 23px 0px 23px;
+    font-weight: bolder;
+    width: 80px;
+}
+li:hover{   
+    border-bottom: 4px solid #10370e;
+    width: 80px;
+    text-align: center;
+    border-radius: 2px;
+    cursor: pointer;
+}
+span{
+    font-size: 15px;
+    color: #00000080;
+}
+.line{
+    border-bottom: 4px solid #10370e;
+    width: 80px;
+    text-align: center;
+    border-radius: 2px;
+    padding-bottom: 10px;
+}
+.p2{
+    background-color: #93ba8f;
+    display: flex;
+    justify-content: center;
+}
+.divdos{
+    display: flex;
+    flex-direction: column;
+    width: 330px;
+    margin-left: 150px;
+}
+img{
+    width: 200px;
+}
+h6{
+    font-size: 23px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.divdosp{
+    font-size: 20px;
+}
